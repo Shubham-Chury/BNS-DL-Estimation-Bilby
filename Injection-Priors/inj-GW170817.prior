@@ -1,0 +1,15 @@
+chirp_mass = Uniform(name = 'chirp_mass', minimum = 1.185, maximum = 1.187)
+mass_ratio =  Constraint(name='mass_ratio', minimum=0.4, maximum=1)
+spin_1 = 0.264813928565
+spin_2 = 0.702414508316
+tilt_1 = 2.58869030589
+tilt_2 = 0.948965945788
+phi_12 = 6.04852924541
+phi_jl = 4.81306908412
+luminosity_distance = Uniform(alpha=2, name='luminosity_distance', minimum=26, maximum=48)
+dec =  -0.408082219800
+ra = 3.44615261
+theta_jn = 2.74719229269
+psi =  Uniform(name='psi', minimum=0, maximum=np.pi)
+phase =  Uniform(name='phase', minimum=0, maximum=2 * np.pi)
+geocent_time = 1187008882.43
